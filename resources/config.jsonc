@@ -21,6 +21,7 @@
         "pulseaudio",
         "network",
         "power-profiles-daemon",
+//or use"custom/tlp",
         "cpu",
         "memory",
         "temperature",
@@ -153,6 +154,19 @@
     "battery#bat2": {
         "bat": "BAT2"
     },
+    //"custom/tlp": {
+    //  "format": "{icon}",
+    //  "return-type": "json",
+    //  "exec": "~/.config/waybar/scripts/tlp_status.sh",
+    //  "on-click": "~/.config/waybar/scripts/tlp_status.sh click",
+    //  "interval": 30,
+    //  "format-icons": {
+    //          "ac": "",
+    //          "bat": ""
+    //          "default": "?"
+    //    }
+    //},
+
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
